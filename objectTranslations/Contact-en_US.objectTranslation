@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Address</value>
+        </caseValues>
+        <name>billing_address_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>BDM for Contact</value>
+        </caseValues>
+        <name>contact_owner</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Mobile Phone</value>
+        </caseValues>
+        <name>mobile_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <help><!-- Check if the contact is active. --></help>
+        <label><!-- Active Contact --></label>
+        <name>Active_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Phone --></label>
+        <name>Alternate_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Name of Lead --></label>
+        <name>Company_Name_of_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Type --></label>
+        <name>Contact_Type__c</name>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test Report</masterLabel>
+            <translation><!-- Test Report --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Do Not Mail --></label>
+        <name>Do_Not_Mail__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Advertising in Publications</masterLabel>
+            <translation><!-- Advertising in Publications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client New Product Development Team</masterLabel>
+            <translation><!-- Client New Product Development Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cold Calling/Telemarketing</masterLabel>
+            <translation><!-- Cold Calling/Telemarketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor Match/Price Shopper</masterLabel>
+            <translation><!-- Competitor Match/Price Shopper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Client Additions</masterLabel>
+            <translation><!-- Current Client Additions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Survey</masterLabel>
+            <translation><!-- Customer Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End User/Buyer</masterLabel>
+            <translation><!-- End User/Buyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former/Dropped Clients</masterLabel>
+            <translation><!-- Former/Dropped Clients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google Adwords</masterLabel>
+            <translation><!-- Google Adwords --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry Reputation</masterLabel>
+            <translation><!-- Industry Reputation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet Research/Seach - Client</masterLabel>
+            <translation><!-- Internet Research/Seach - Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet Research/Search - BDM</masterLabel>
+            <translation><!-- Internet Research/Search - BDM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JANA Referral</masterLabel>
+            <translation><!-- JANA Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Client Activity</masterLabel>
+            <translation><!-- Key Client Activity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Campaigns</masterLabel>
+            <translation><!-- Marketing Campaigns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSF Internal Cross-selling</masterLabel>
+            <translation><!-- NSF Internal Cross-selling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSF Marketing Research</masterLabel>
+            <translation><!-- NSF Marketing Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSF Pre-Qualified Lead</masterLabel>
+            <translation><!-- NSF Pre-Qualified Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSF Website/Social Media</masterLabel>
+            <translation><!-- NSF Website/Social Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other/Unknown</masterLabel>
+            <translation><!-- Other/Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Vendor</masterLabel>
+            <translation><!-- Preferred Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publication/Article</masterLabel>
+            <translation><!-- Publication/Article --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral - Auditor</masterLabel>
+            <translation><!-- Referral - Auditor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral - Consultant</masterLabel>
+            <translation><!-- Referral - Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral - Current Client</masterLabel>
+            <translation><!-- Referral - Current Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral - Internal</masterLabel>
+            <translation><!-- Referral - Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral - NSF Partnering Agency</masterLabel>
+            <translation><!-- Referral - NSF Partnering Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral - Other</masterLabel>
+            <translation><!-- Referral - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral - Trade Association</masterLabel>
+            <translation><!-- Referral - Trade Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral - Training</masterLabel>
+            <translation><!-- Referral - Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory</masterLabel>
+            <translation><!-- Regulatory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retailer/GRMA</masterLabel>
+            <translation><!-- Retailer/GRMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Targeting Competition</masterLabel>
+            <translation><!-- Targeting Competition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tradeshow/Conference</masterLabel>
+            <translation><!-- Tradeshow/Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whitepaper</masterLabel>
+            <translation><!-- Whitepaper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>e-card/Newsletter</masterLabel>
+            <translation><!-- e-card/Newsletter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Source Detail --></label>
+        <name>Lead_Source_Detail__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if Primary Contact for their company. --></help>
+        <label><!-- Primary Contact --></label>
+        <name>Primary_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Phone --></label>
+        <name>Primary_Phone__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+</CustomObjectTranslation>

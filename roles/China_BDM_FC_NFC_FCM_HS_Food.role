@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>China BDM, FC/NFC/FCM/HS/Food</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>China_Sr_BDM_FC_NFC_FCM_HS_Food</parentRole>
+</Role>

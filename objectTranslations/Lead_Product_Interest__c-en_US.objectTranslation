@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Lead Product(s) Interest</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Lead Products Interests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>Lead_Interest__c</name>
+        <relationshipLabel><!-- Lead Products Interests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Interest --></label>
+        <name>Product_Interest__c</name>
+        <relationshipLabel><!-- Lead Products Interests --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
