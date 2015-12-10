@@ -19,6 +19,22 @@
     <fields>
         <caseValues>
             <plural>false</plural>
+            <value>BDM for Company Alias</value>
+        </caseValues>
+        <name>contact_owner_alias</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Do Not Email</value>
+        </caseValues>
+        <name>email_opt_out_contact</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
             <value>Mobile Phone</value>
         </caseValues>
         <name>mobile_contact</name>
@@ -41,21 +57,22 @@
         <label><!-- Contact Type --></label>
         <name>Contact_Type__c</name>
         <picklistValues>
-            <masterLabel>Marketing</masterLabel>
-            <translation><!-- Marketing --></translation>
+            <masterLabel>Operations</masterLabel>
+            <translation><!-- Operations --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Sales</masterLabel>
             <translation><!-- Sales --></translation>
         </picklistValues>
-        <picklistValues>
-            <masterLabel>Test Report</masterLabel>
-            <translation><!-- Test Report --></translation>
-        </picklistValues>
     </fields>
     <fields>
         <label><!-- Do Not Mail --></label>
         <name>Do_Not_Mail__c</name>
+    </fields>
+    <fields>
+        <help><!-- This will opt-out the Contact from all communication. --></help>
+        <label><!-- Do Not Solicit --></label>
+        <name>Do_Not_Solicit__c</name>
     </fields>
     <fields>
         <name>LeadSource</name>
@@ -209,13 +226,21 @@
         <name>Lead_Source_Detail__c</name>
     </fields>
     <fields>
-        <help><!-- Check if Primary Contact for their company. --></help>
+        <help><!-- Request to Sales Admin for Contact deletion. --></help>
+        <label><!-- Marked for Deletion? --></label>
+        <name>Marked_for_Deletion__c</name>
+    </fields>
+    <fields>
         <label><!-- Primary Contact --></label>
         <name>Primary_Contact__c</name>
     </fields>
     <fields>
         <label><!-- Primary Phone --></label>
         <name>Primary_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timezone --></label>
+        <name>Timezone__c</name>
     </fields>
     <webLinks>
         <label><!-- GoogleMaps --></label>

@@ -1,11 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Company</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Companies</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Access</value>
+        </caseValues>
+        <name>account_access</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Access Level</value>
+        </caseValues>
+        <name>account_access_level</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Contact Role</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Company Contact Roles</value>
+        </caseValues>
+        <name>account_contact_role</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Creator</value>
+        </caseValues>
+        <name>account_creator</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Currency</value>
+        </caseValues>
+        <name>account_currency</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Description</value>
+        </caseValues>
+        <name>account_description</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Detail Page</value>
+        </caseValues>
+        <name>account_detail_page</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
     <fields>
         <caseValues>
             <plural>false</plural>
             <value>Company Division</value>
         </caseValues>
         <name>account_division</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Edit</value>
+        </caseValues>
+        <name>account_edit</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Fax</value>
+        </caseValues>
+        <name>account_fax</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Company Fields</value>
+        </caseValues>
+        <name>account_field</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company General</value>
+        </caseValues>
+        <name>account_general</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Hierarchy</value>
+        </caseValues>
+        <name>account_hierarchy</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company History</value>
+        </caseValues>
+        <name>account_history</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company History Archive</value>
+        </caseValues>
+        <name>account_history_archive</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company History Report</value>
+        </caseValues>
+        <name>account_history_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company ID</value>
+        </caseValues>
+        <name>account_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Information</value>
+        </caseValues>
+        <name>account_information</name>
         <startsWith>Vowel</startsWith>
     </fields>
     <fields>
@@ -43,6 +195,98 @@
     <fields>
         <caseValues>
             <plural>false</plural>
+            <value>Company Owner Alias</value>
+        </caseValues>
+        <name>account_owner_alias</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Owner Report</value>
+        </caseValues>
+        <name>account_owner_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Owner Role</value>
+        </caseValues>
+        <name>account_owner_role</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Ownership</value>
+        </caseValues>
+        <name>account_ownership</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Phone</value>
+        </caseValues>
+        <name>account_phone</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Rating</value>
+        </caseValues>
+        <name>account_rating</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Record</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Company Records</value>
+        </caseValues>
+        <name>account_record</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Record Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Company Record Types</value>
+        </caseValues>
+        <name>account_record_type</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Company Reports</value>
+        </caseValues>
+        <name>account_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Sharing</value>
+        </caseValues>
+        <name>account_sharing</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
             <value>Company Site</value>
         </caseValues>
         <caseValues>
@@ -63,9 +307,97 @@
     <fields>
         <caseValues>
             <plural>false</plural>
-            <value>Address - Other</value>
+            <value>Company Stage ID</value>
         </caseValues>
-        <name>address_account</name>
+        <name>account_stage_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Team</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Company Teams</value>
+        </caseValues>
+        <name>account_team</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Team Member</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Company Team Members</value>
+        </caseValues>
+        <name>account_team_member</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Team Member ID</value>
+        </caseValues>
+        <name>account_team_member_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Team Report</value>
+        </caseValues>
+        <name>account_team_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Territory</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Company Territories</value>
+        </caseValues>
+        <name>account_territory</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Tool</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Company Tools</value>
+        </caseValues>
+        <name>account_tool</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Company Types</value>
+        </caseValues>
+        <name>account_type</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Company View</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Company Views</value>
+        </caseValues>
+        <name>account_view</name>
         <startsWith>Vowel</startsWith>
     </fields>
     <fields>
@@ -159,38 +491,6 @@
     <fields>
         <caseValues>
             <plural>false</plural>
-            <value>City - Other</value>
-        </caseValues>
-        <name>city_account</name>
-        <startsWith>Consonant</startsWith>
-    </fields>
-    <fields>
-        <caseValues>
-            <plural>false</plural>
-            <value>Country - Other</value>
-        </caseValues>
-        <name>country_account</name>
-        <startsWith>Consonant</startsWith>
-    </fields>
-    <fields>
-        <caseValues>
-            <plural>false</plural>
-            <value>Description of Business</value>
-        </caseValues>
-        <name>description_account</name>
-        <startsWith>Consonant</startsWith>
-    </fields>
-    <fields>
-        <caseValues>
-            <plural>false</plural>
-            <value>Company Fax</value>
-        </caseValues>
-        <name>fax_account</name>
-        <startsWith>Consonant</startsWith>
-    </fields>
-    <fields>
-        <caseValues>
-            <plural>false</plural>
             <value>Corporate Office</value>
         </caseValues>
         <caseValues>
@@ -203,25 +503,25 @@
     <fields>
         <caseValues>
             <plural>false</plural>
-            <value>State - Other</value>
+            <value>Corporate Office Division</value>
         </caseValues>
-        <name>state_account</name>
+        <name>parent_account_division</name>
         <startsWith>Consonant</startsWith>
     </fields>
     <fields>
         <caseValues>
             <plural>false</plural>
-            <value>Street - Other</value>
+            <value>Corporate Office ID</value>
         </caseValues>
-        <name>street_account</name>
+        <name>parent_account_id</name>
         <startsWith>Consonant</startsWith>
     </fields>
     <fields>
         <caseValues>
             <plural>false</plural>
-            <value>Zip/Postal Code - Other</value>
+            <value>Corporate Office Site</value>
         </caseValues>
-        <name>zip_account</name>
+        <name>parent_account_site</name>
         <startsWith>Consonant</startsWith>
     </fields>
     <fields>
@@ -571,6 +871,11 @@
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- Request to Sales Admin for Account Deletion. --></help>
+        <label><!-- Marked for Deletion? --></label>
+        <name>Marked_for_Deletion__c</name>
+    </fields>
+    <fields>
         <label><!-- Marketing History --></label>
         <name>Marketing_History__c</name>
     </fields>
@@ -619,6 +924,22 @@
     <fields>
         <label><!-- Region --></label>
         <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Asia</masterLabel>
+            <translation><!-- Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latin America</masterLabel>
+            <translation><!-- Latin America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation><!-- North America --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- Revenue with NSF --></label>
@@ -671,6 +992,11 @@
             <translation><!-- Reseller --></translation>
         </picklistValues>
     </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Address is required for Companies. --></errorMessage>
+        <name>Address_Required_Company</name>
+    </validationRules>
     <webLinks>
         <label><!-- AltavistaNews --></label>
         <name>AltavistaNews</name>

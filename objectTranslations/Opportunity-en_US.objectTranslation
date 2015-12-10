@@ -9,35 +9,175 @@
         <startsWith>Vowel</startsWith>
     </fields>
     <fields>
-        <label><!-- Closed/Lost Reason --></label>
+        <caseValues>
+            <plural>false</plural>
+            <value>BDM for Opportunity Alias</value>
+        </caseValues>
+        <name>opportunity_owner_alias</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>BDM for Opportunity Email</value>
+        </caseValues>
+        <name>opportunity_owner_email</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Opportunity Service Name</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Opportunity Service Names</value>
+        </caseValues>
+        <name>opportunity_product_name</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Closed Lost Reason --></label>
         <name>Closed_Lost_Reason__c</name>
         <picklistValues>
-            <masterLabel>A</masterLabel>
-            <translation><!-- A --></translation>
+            <masterLabel>Auditor Credentials</masterLabel>
+            <translation><!-- Auditor Credentials --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>B</masterLabel>
-            <translation><!-- B --></translation>
+            <masterLabel>Auditor Location</masterLabel>
+            <translation><!-- Auditor Location --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>C</masterLabel>
-            <translation><!-- C --></translation>
+            <masterLabel>Changed their mind due to required additional work/cost</masterLabel>
+            <translation><!-- Changed their mind due to required additional work/cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitive counter quote.</masterLabel>
+            <translation><!-- Competitive counter quote. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor - Features</masterLabel>
+            <translation><!-- Competitor - Features --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor - Fees</masterLabel>
+            <translation><!-- Competitor - Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Did not Secure Bid</masterLabel>
+            <translation><!-- Did not Secure Bid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failure to complete contract negotiations</masterLabel>
+            <translation><!-- Failure to complete contract negotiations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack of NSF Credibility &amp; Service</masterLabel>
+            <translation><!-- Lack of NSF Credibility &amp; Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Longer in Business</masterLabel>
+            <translation><!-- No Longer in Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No NSF quote/submitted RFP due to contract restraints</masterLabel>
+            <translation><!-- No NSF quote/submitted RFP due to contract restraints --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Communicative/Not Interested</masterLabel>
+            <translation><!-- Non Communicative/Not Interested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resources Unavailable</masterLabel>
+            <translation><!-- Resources Unavailable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service not offered by NSF</masterLabel>
+            <translation><!-- Service not offered by NSF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to arrange audit to desired timescale</masterLabel>
+            <translation><!-- Unable to arrange audit to desired timescale --></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Closed/Won Reason --></label>
+        <label><!-- Closed Won Reason --></label>
         <name>Closed_Won_Reason__c</name>
         <picklistValues>
-            <masterLabel>A</masterLabel>
-            <translation><!-- A --></translation>
+            <masterLabel>Auditor Availability / Location</masterLabel>
+            <translation><!-- Auditor Availability / Location --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>B</masterLabel>
-            <translation><!-- B --></translation>
+            <masterLabel>Auditor Credentials / Integrity Program</masterLabel>
+            <translation><!-- Auditor Credentials / Integrity Program --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>C</masterLabel>
-            <translation><!-- C --></translation>
+            <masterLabel>Client Account or Relationship Management</masterLabel>
+            <translation><!-- Client Account or Relationship Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client previously worked with NSF</masterLabel>
+            <translation><!-- Client previously worked with NSF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International or Regional Capability</masterLabel>
+            <translation><!-- International or Regional Capability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mandated by Client (Specified)</masterLabel>
+            <translation><!-- Mandated by Client (Specified) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSF BDG Interaction/Service</masterLabel>
+            <translation><!-- NSF BDG Interaction/Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSF Online / IT &amp; Data Management Capabilities</masterLabel>
+            <translation><!-- NSF Online / IT &amp; Data Management Capabilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSF Reputation</masterLabel>
+            <translation><!-- NSF Reputation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSF vision/business insight/understanding of the client</masterLabel>
+            <translation><!-- NSF vision/business insight/understanding of the client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other... (Define Below)</masterLabel>
+            <translation><!-- Other... (Define Below) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price - Cost Competitiveness / Value Proposition</masterLabel>
+            <translation><!-- Price - Cost Competitiveness / Value Proposition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality of NSF Proposal/RFP/Presentations</masterLabel>
+            <translation><!-- Quality of NSF Proposal/RFP/Presentations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommendation from… (Text Field Below)</masterLabel>
+            <translation><!-- Recommendation from… (Text Field Below) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Meet Regulatory Requirements</masterLabel>
+            <translation><!-- To Meet Regulatory Requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Win Specific Projects</masterLabel>
+            <translation><!-- To Win Specific Projects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unique NSF Service Capability / Service Offer</masterLabel>
+            <translation><!-- Unique NSF Service Capability / Service Offer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value of the NSF Mark</masterLabel>
+            <translation><!-- Value of the NSF Mark --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -192,20 +332,9 @@
         <name>Lead_Source_Detail__c</name>
     </fields>
     <fields>
-        <label><!-- Opportunity Type --></label>
-        <name>Opportunity_Type__c</name>
-        <picklistValues>
-            <masterLabel>Existing Customer Upgrade</masterLabel>
-            <translation><!-- Existing Customer Upgrade --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Former Customer Returning</masterLabel>
-            <translation><!-- Former Customer Returning --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>New Customer</masterLabel>
-            <translation><!-- New Customer --></translation>
-        </picklistValues>
+        <help><!-- If selected Other for Closed Won reason --></help>
+        <label><!-- Other Closed Won Reason --></label>
+        <name>Other_Closed_Won_Reason__c</name>
     </fields>
     <fields>
         <label><!-- Product --></label>
@@ -213,8 +342,29 @@
         <relationshipLabel><!-- Opportunities --></relationshipLabel>
     </fields>
     <fields>
+        <help><!-- If Recommended From is chosen as Closed/Won reason. --></help>
+        <label><!-- Recommendation From --></label>
+        <name>Recommended_from__c</name>
+    </fields>
+    <fields>
         <label><!-- Region --></label>
         <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Asia</masterLabel>
+            <translation><!-- Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latin America</masterLabel>
+            <translation><!-- Latin America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation><!-- North America --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <name>StageName</name>
@@ -282,16 +432,28 @@
     <fields>
         <name>Type</name>
         <picklistValues>
-            <masterLabel>Existing Business</masterLabel>
-            <translation><!-- Existing Business --></translation>
+            <masterLabel>Existing Customer Upgrade</masterLabel>
+            <translation><!-- Existing Customer Upgrade --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>New Business</masterLabel>
-            <translation><!-- New Business --></translation>
+            <masterLabel>Former Customer Returning</masterLabel>
+            <translation><!-- Former Customer Returning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Customer</masterLabel>
+            <translation><!-- New Customer --></translation>
         </picklistValues>
     </fields>
     <recordTypes>
         <label><!-- NSF Opportunity --></label>
         <name>NSF_Opportunity</name>
     </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Closed Lost Reason Required When Stage is Closed/Lost. --></errorMessage>
+        <name>Closed_Lost_Reason_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed Won Reason Required When Stage is Closed/Won. --></errorMessage>
+        <name>Closed_Won_Reason_Required</name>
+    </validationRules>
 </CustomObjectTranslation>

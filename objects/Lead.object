@@ -630,13 +630,13 @@
     <listViews>
         <fullName>AllOpenLeads</fullName>
         <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
         <columns>LEAD.COMPANY</columns>
         <columns>LEAD.STATE</columns>
         <columns>LEAD.PHONE</columns>
         <columns>LEAD.EMAIL</columns>
         <columns>LEAD.STATUS</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <columns>LEAD.CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>LEAD.STATUS</field>
@@ -700,6 +700,19 @@
         <label>My Unread Leads</label>
     </listViews>
     <listViews>
+        <fullName>My_Open_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CORE.USERS.LAST_NAME</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Open Leads</label>
+    </listViews>
+    <listViews>
         <fullName>Region_1_Lead</fullName>
         <filterScope>Queue</filterScope>
         <label>Region 1</label>
@@ -756,17 +769,47 @@
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
     <validationRules>
+        <fullName>Lead_Conversion</fullName>
+        <active>true</active>
+        <description>Rule to ensure that a Lead can be converted only if the Lead has reached the Qualified stage.</description>
+        <errorConditionFormula>AND(IsConverted,
+    ISPICKVAL(Status,&quot;Qualified&quot;),
+    OR( 
+       ISBLANK(Lead_Source_Detail__c), 
+       ISBLANK(FirstName), 
+       ISBLANK(LastName), 
+       ISBLANK(Company), 
+       ISBLANK(Email), 
+       ISBLANK(Street), 
+       ISBLANK(City), 
+       ISBLANK(State), 
+       ISBLANK(Country), 
+       ISBLANK(PostalCode) 
+   ) 
+)</errorConditionFormula>
+        <errorMessage>The Lead must be moved to the Qualified status before it can be converted.</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>Lead_Qualification</fullName>
         <active>true</active>
-        <description>Lead can be changed to the Qualified status unless the Lead Source, Lead Source Detail, Lead Name, Company and Address have been identified for the Lead.</description>
+        <description>A Lead can be moved to the Qualified status only if the Lead Source, Lead Source Detail, Lead Name, Company and Address fields have been populated for the Lead.</description>
         <errorConditionFormula>AND(
   ISPICKVAL(Status,&quot;Qualified&quot;),
-  ISBLANK(Lead_Source_Detail__c),
-  ISBLANK(Company),
-  ISBLANK(Email),
-  ISBLANK(Address)
+  OR(
+     ISBLANK(Lead_Source_Detail__c),
+     ISBLANK(FirstName),
+     ISBLANK(LastName),
+     ISBLANK(Company),
+     ISBLANK(Email),
+     ISBLANK(Street),
+     ISBLANK(City),
+     ISBLANK(State),
+     ISBLANK(Country),
+     ISBLANK(PostalCode)
+    )
 )</errorConditionFormula>
-        <errorMessage>A Lead cannot be Qualified unless the Lead Source, Lead Source Detail, Lead Name, Company and Address have been identified for the Lead.</errorMessage>
+        <errorDisplayField>Status</errorDisplayField>
+        <errorMessage>A Lead cannot be Qualified unless the First Name, Last Name, Lead Source, Lead Source Detail, Company and full Address information has been identified for the Lead.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Lead_Source_Pardot</fullName>
